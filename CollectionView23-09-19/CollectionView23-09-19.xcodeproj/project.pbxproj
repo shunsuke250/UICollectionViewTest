@@ -13,6 +13,10 @@
 		AB1CD6482AB9B8110047E2D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1CD6462AB9B8110047E2D8 /* Main.storyboard */; };
 		AB1CD64A2AB9B8120047E2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1CD6492AB9B8120047E2D8 /* Assets.xcassets */; };
 		AB1CD64D2AB9B8120047E2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1CD64B2AB9B8120047E2D8 /* LaunchScreen.storyboard */; };
+		AB1CD6562AB9BC6C0047E2D8 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1CD6542AB9BC6C0047E2D8 /* CollectionViewCell.swift */; };
+		AB1CD6572AB9BC6C0047E2D8 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1CD6552AB9BC6C0047E2D8 /* CollectionViewCell.xib */; };
+		AB1CD65A2AB9E72A0047E2D8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1CD6582AB9E72A0047E2D8 /* TableViewCell.swift */; };
+		AB1CD65B2AB9E72A0047E2D8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1CD6592AB9E72A0047E2D8 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		AB1CD6492AB9B8120047E2D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB1CD64C2AB9B8120047E2D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB1CD64E2AB9B8120047E2D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1CD6542AB9BC6C0047E2D8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AB1CD6552AB9BC6C0047E2D8 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		AB1CD6582AB9E72A0047E2D8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AB1CD6592AB9E72A0047E2D8 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,8 @@
 		AB1CD6342AB9B8110047E2D8 = {
 			isa = PBXGroup;
 			children = (
+				AB1CD6582AB9E72A0047E2D8 /* TableViewCell.swift */,
+				AB1CD6592AB9E72A0047E2D8 /* TableViewCell.xib */,
 				AB1CD63F2AB9B8110047E2D8 /* CollectionView23-09-19 */,
 				AB1CD63E2AB9B8110047E2D8 /* Products */,
 			);
@@ -60,6 +70,8 @@
 				AB1CD6422AB9B8110047E2D8 /* SceneDelegate.swift */,
 				AB1CD6442AB9B8110047E2D8 /* ViewController.swift */,
 				AB1CD6462AB9B8110047E2D8 /* Main.storyboard */,
+				AB1CD6542AB9BC6C0047E2D8 /* CollectionViewCell.swift */,
+				AB1CD6552AB9BC6C0047E2D8 /* CollectionViewCell.xib */,
 				AB1CD6492AB9B8120047E2D8 /* Assets.xcassets */,
 				AB1CD64B2AB9B8120047E2D8 /* LaunchScreen.storyboard */,
 				AB1CD64E2AB9B8120047E2D8 /* Info.plist */,
@@ -126,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1CD64D2AB9B8120047E2D8 /* LaunchScreen.storyboard in Resources */,
+				AB1CD65B2AB9E72A0047E2D8 /* TableViewCell.xib in Resources */,
 				AB1CD64A2AB9B8120047E2D8 /* Assets.xcassets in Resources */,
+				AB1CD6572AB9BC6C0047E2D8 /* CollectionViewCell.xib in Resources */,
 				AB1CD6482AB9B8110047E2D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1CD65A2AB9E72A0047E2D8 /* TableViewCell.swift in Sources */,
 				AB1CD6452AB9B8110047E2D8 /* ViewController.swift in Sources */,
 				AB1CD6412AB9B8110047E2D8 /* AppDelegate.swift in Sources */,
+				AB1CD6562AB9BC6C0047E2D8 /* CollectionViewCell.swift in Sources */,
 				AB1CD6432AB9B8110047E2D8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
